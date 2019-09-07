@@ -12,15 +12,20 @@
     "url": "https://github.com/pm2-hive/pm2-mongodb"
   },
   "config": {
-    "MONGODB_URI": "",
-    "DB_NAME": "",
+    "host": "",
+    "port": 27017,
+    "username": "",
+    "password": "",
+    "authDB": "",
     "refresh_rate": 5000
   },
-  "apps": [{
-    "merge_logs": true,
-    "max_memory_restart": "200M",
-    "script": "app.js"
-  }],
+  "apps": [
+    {
+      "merge_logs": true,
+      "max_memory_restart": "200M",
+      "script": "app.js"
+    }
+  ],
   "author": "Keymetrics Inc.",
   "license": "MIT"
 }
