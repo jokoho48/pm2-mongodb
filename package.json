@@ -13,10 +13,11 @@
   },
   "config": {
     "host": "",
-    "port": 27017,
+    "port": "27017",
     "username": "",
     "password": "",
     "authDB": "",
+    "database": "",
     "refresh_rate": 5000
   },
   "apps": [
