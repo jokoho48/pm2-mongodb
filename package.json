@@ -12,11 +12,8 @@
     "url": "https://github.com/pm2-hive/pm2-mongodb"
   },
   "config": {
-    "ip": "127.0.0.1",
-    "port": 27017,
-    "username": "",
-    "password": "",
-    "authDB": "",
+    "MONGODB_URI": "",
+    "DB_NAME": "",
     "refresh_rate": 5000
   },
   "apps": [{
